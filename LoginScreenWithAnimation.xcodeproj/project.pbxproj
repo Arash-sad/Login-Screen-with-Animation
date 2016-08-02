@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		5BAD9D1F1D50645800F876CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD9D1E1D50645800F876CA /* AppDelegate.swift */; };
 		5BAD9D211D50645800F876CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD9D201D50645800F876CA /* ViewController.swift */; };
-		5BAD9D241D50645800F876CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD9D221D50645800F876CA /* Main.storyboard */; };
 		5BAD9D261D50645800F876CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD9D251D50645800F876CA /* Assets.xcassets */; };
 		5BAD9D291D50645800F876CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD9D271D50645800F876CA /* LaunchScreen.storyboard */; };
+		5BAD9D321D5064A000F876CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD9D311D5064A000F876CA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BAD9D1B1D50645800F876CA /* LoginScreenWithAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreenWithAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAD9D1E1D50645800F876CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BAD9D201D50645800F876CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BAD9D231D50645800F876CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BAD9D251D50645800F876CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BAD9D281D50645800F876CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BAD9D2A1D50645800F876CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAD9D301D5064A000F876CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				5BAD9D1E1D50645800F876CA /* AppDelegate.swift */,
 				5BAD9D201D50645800F876CA /* ViewController.swift */,
-				5BAD9D221D50645800F876CA /* Main.storyboard */,
+				5BAD9D311D5064A000F876CA /* Main.storyboard */,
 				5BAD9D251D50645800F876CA /* Assets.xcassets */,
 				5BAD9D271D50645800F876CA /* LaunchScreen.storyboard */,
 				5BAD9D2A1D50645800F876CA /* Info.plist */,
@@ -122,9 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAD9D321D5064A000F876CA /* Main.storyboard in Resources */,
 				5BAD9D291D50645800F876CA /* LaunchScreen.storyboard in Resources */,
 				5BAD9D261D50645800F876CA /* Assets.xcassets in Resources */,
-				5BAD9D241D50645800F876CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,20 +143,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BAD9D221D50645800F876CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BAD9D231D50645800F876CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BAD9D271D50645800F876CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5BAD9D281D50645800F876CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5BAD9D311D5064A000F876CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BAD9D301D5064A000F876CA /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../BahamaAir-Starter/BahamaAirLoginScreen";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
